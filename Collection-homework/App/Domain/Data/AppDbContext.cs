@@ -13,13 +13,13 @@ namespace Domain.Data
 
         public static List<Person> People()
         {
-            List<Person> persons = new List<Person>();
-            persons.Add(new Person("Arzu", "Kerimli", "051-408-79-98"));
-            persons.Add(new Person("Ayşe", "Eliyeva", "050-555-44-33"));
-            persons.Add(new Person("Omer", "Kerimli", "055-666-55-44"));
-            persons.Add(new Person("Fatma", "Esedova", "070-999-88-77"));
-            persons.Add(new Person("Feride", "Mirzeyeva", "099-777-66-55"));
-            return persons;
+            return new List<Person> {
+                new Person("Omer", "Kerimli", "055-666-55-44"),
+                new Person("Arzu", "Kerimli", "051-408-79-98"),
+                new Person("Ayşe", "Eliyeva", "050-555-44-33"),
+                new Person("Fatma", "Esedova", "070-999-88-77"),
+                new Person("Feride", "Mirzeyeva", "099-777-66-55")
+            };
         }
     }
 }
