@@ -39,20 +39,20 @@ namespace Service.Services
        
         public List<Person> Save(string name, string surname, string phone)
         {
-            List<Person> people = new List<Person>();
+            List<Person> people =AppDbContext.People();
             Person newPerson = new Person(name, surname, phone);
             people.Add(newPerson);
-            return people;
+            return people;                                                    
         }
 
-        public List<Person> SortContact(int choose)
+        public List<Person> SortContact(int choice)
         {
             List<Person> people =AppDbContext.People();
-            if (choose==1)
+            if (choice==1)
             {
                 people = people.OrderBy(m => m.Name).ToList();
             }
-            else if(choose==2)
+            else if(choice==2)
             {
                 people = people.OrderByDescending(m => m.Name).ToList();
             

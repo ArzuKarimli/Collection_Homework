@@ -22,17 +22,30 @@ namespace App.Controller
         public void SaveNewPerson()
         {
             Console.WriteLine("Name :");
-            string name=Console.ReadLine();
+            Name: string name=Console.ReadLine();
           
             Console.WriteLine("Surname :");
             string surname = Console.ReadLine();
 
             Console.WriteLine("Phone number :");
             string phone=Console.ReadLine();
+            bool exist = false;
 
             foreach(var person in _personService.Save(name, surname, phone))
             {
-                Console.WriteLine($"{person.Name} {person.Surname}-{person.Phone}");
+                if (name == person.Name && surname == person.Surname && phone == person.Phone)
+                {
+                    Console.WriteLine("Contact with this name is available");
+                    exist = true;
+                    break;
+                }
+            }
+            if (!exist)
+            {
+                foreach(var person in _personService.Save(name, surname, phone))
+                {
+                    Console.WriteLine($"{person.Name} {person.Surname}-{person.Phone}");
+                }
             }
 
         }

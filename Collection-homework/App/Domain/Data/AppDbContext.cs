@@ -13,7 +13,8 @@ namespace Domain.Data
 
         public static List<Person> People()
         {
-            return new List<Person> {
+            return new List<Person>
+            {
                 new Person("Omer", "Kerimli", "055-666-55-44"),
                 new Person("Arzu", "Kerimli", "051-408-79-98"),
                 new Person("Ayşe", "Eliyeva", "050-555-44-33"),
