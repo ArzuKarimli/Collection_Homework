@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\Code Tasks\Collections\Collection-practice\Collections-practice\Collections-practice\bin\Debug\net6.0\Collections-practice.exe
+C:\Users\User\Desktop\Code Tasks\Collections\Collection-practice\Collections-practice\Collections-practice\bin\Debug\net6.0\Collections-practice.deps.json
+C:\Users\User\Desktop\Code Tasks\Collections\Collection-practice\Collections-practice\Collections-practice\bin\Debug\net6.0\Collections-practice.runtimeconfig.json
+C:\Users\User\Desktop\Code Tasks\Collections\Collection-practice\Collections-practice\Collections-practice\bin\Debug\net6.0\Collections-practice.dll
+C:\Users\User\Desktop\Code Tasks\Collections\Collection-practice\Collections-practice\Collections-practice\bin\Debug\net6.0\Collections-practice.pdb
+C:\Users\User\Desktop\Code Tasks\Collections\Collection-practice\Collections-practice\Collections-practice\obj\Debug\net6.0\Collections-practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Code Tasks\Collections\Collection-practice\Collections-practice\Collections-practice\obj\Debug\net6.0\Collections-practice.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Code Tasks\Collections\Collection-practice\Collections-practice\Collections-practice\obj\Debug\net6.0\Collections-practice.AssemblyInfo.cs
+C:\Users\User\Desktop\Code Tasks\Collections\Collection-practice\Collections-practice\Collections-practice\obj\Debug\net6.0\Collections-practice.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Code Tasks\Collections\Collection-practice\Collections-practice\Collections-practice\obj\Debug\net6.0\Collections-practice.dll
+C:\Users\User\Desktop\Code Tasks\Collections\Collection-practice\Collections-practice\Collections-practice\obj\Debug\net6.0\refint\Collections-practice.dll
+C:\Users\User\Desktop\Code Tasks\Collections\Collection-practice\Collections-practice\Collections-practice\obj\Debug\net6.0\Collections-practice.pdb
+C:\Users\User\Desktop\Code Tasks\Collections\Collection-practice\Collections-practice\Collections-practice\obj\Debug\net6.0\Collections-practice.genruntimeconfig.cache
+C:\Users\User\Desktop\Code Tasks\Collections\Collection-practice\Collections-practice\Collections-practice\obj\Debug\net6.0\ref\Collections-practice.dll
